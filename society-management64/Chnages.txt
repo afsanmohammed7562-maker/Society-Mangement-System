@@ -1,0 +1,7 @@
+1.Chnages 
+- Currency Chnage to Rs..
+- Logo Fixed Each Pages 
+-Header Nav Bar Color CHnage - ( Visible Color)
+-Footer Size reduce 
+-Wellcome index page ( Like app Openinhg)
+-
