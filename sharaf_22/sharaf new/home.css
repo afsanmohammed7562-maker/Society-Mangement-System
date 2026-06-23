@@ -1,0 +1,220 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+}
+
+body{
+background:#edf0f4;
+}
+
+/* HERO */
+
+.hero{
+background:linear-gradient(90deg,#657eea,#7950b3);
+padding:120px 100px;
+color:white;
+border-bottom-left-radius:60px;
+border-bottom-right-radius:60px;
+}
+
+.hero h1{
+font-size:75px;
+font-weight:700;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:25px;
+color:#ececec;
+}
+
+/* CARDS */
+
+.amount-cards{
+display:flex;
+gap:30px;
+padding:40px 100px;
+}
+
+.card{
+flex:1;
+padding:50px;
+border-radius:25px;
+text-align:center;
+color:white;
+}
+
+.pending-card{
+background:linear-gradient(90deg,#dc84e8,#f45c7a);
+}
+
+.fund-card{
+background:linear-gradient(90deg,#4ca4ea,#19d2e4);
+}
+
+.card h3{
+font-size:28px;
+margin-bottom:15px;
+}
+
+.card h1{
+font-size:70px;
+}
+
+/* CONTENT */
+
+.content{
+display:flex;
+gap:30px;
+padding:0 30px 40px;
+}
+
+.left-content{
+width:65%;
+}
+
+.right-content{
+width:35%;
+}
+
+/* MEMBERS */
+
+.members-box{
+background:white;
+padding:25px;
+border-radius:25px;
+margin-bottom:20px;
+}
+
+.members-box h2{
+font-size:22px;
+margin-bottom:25px;
+color:#24344d;
+}
+
+.members-box i{
+color:#6477e5;
+margin-right:10px;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+th,td{
+padding:18px;
+text-align:left;
+border-bottom:1px solid #ddd;
+}
+
+/* REPORT */
+
+.report-box{
+background:white;
+padding:20px;
+border-radius:25px;
+margin-bottom:20px;
+}
+
+.report-box h2{
+margin-bottom:20px;
+}
+
+.report-item{
+background:#f6f6f6;
+padding:20px;
+border-radius:15px;
+margin-bottom:15px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.report-item button{
+background:#7154d7;
+border:none;
+color:white;
+padding:15px;
+border-radius:10px;
+cursor:pointer;
+}
+
+/* GALLERY */
+
+.gallery-box{
+background:transparent;
+}
+
+.gallery-title{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom:20px;
+}
+
+.gallery-title h2{
+color:#24344d;
+}
+
+.gallery-title button{
+background:#7154d7;
+color:white;
+border:none;
+padding:10px 25px;
+border-radius:30px;
+cursor:pointer;
+}
+
+.gallery-images{
+display:flex;
+gap:20px;
+}
+
+.gallery-images img{
+width:245px;
+height:150px;
+border-radius:20px;
+object-fit:cover;
+}
+
+/* NOTICE */
+
+.notice-box{
+background:white;
+padding:20px;
+border-radius:25px;
+}
+
+.notice-box h2{
+margin-bottom:20px;
+}
+
+.notice-box i{
+color:#f85770;
+}
+
+.notice{
+background:#f8f8f8;
+padding:20px;
+border-left:4px solid #657eea;
+margin-bottom:20px;
+border-radius:10px;
+}
+
+.notice h3{
+margin-bottom:10px;
+}
+
+.notice p{
+margin-top:10px;
+color:#666;
+}
+
+.notice-box a{
+text-decoration:none;
+color:#657eea;
+font-weight:600;
+}
