@@ -233,7 +233,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="login-card">
         <div class="login-card-header">
             <i class="fa-solid fa-building-user"></i>
-            <h3>Society Portal</h3>
+            <h3>Society Portal aflan</h3>
         </div>
         <div class="login-card-body">
             <?php if($error): ?>
