@@ -23,9 +23,9 @@ CREATE TABLE IF NOT EXISTS admins (
 -- Hash for 'admin123': $2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi
 
 INSERT INTO admins (username, password, role) VALUES 
-('president', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'President'),
-('secretary', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'Secretary'),
-('treasurer', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'Treasurer')
+('president', '$2y$10$BhnFPF0y3K1LFUFBCOhVA.MDGHWz4.QeTJoJ.fORqrItda65NmrEi', 'President'),
+('secretary', '$2y$10$BhnFPF0y3K1LFUFBCOhVA.MDGHWz4.QeTJoJ.fORqrItda65NmrEi', 'Secretary'),
+('treasurer', '$2y$10$BhnFPF0y3K1LFUFBCOhVA.MDGHWz4.QeTJoJ.fORqrItda65NmrEi', 'Treasurer')
 ON DUPLICATE KEY UPDATE password=VALUES(password);
 
 -- 2. Users (Members) Table
@@ -43,7 +43,7 @@ CREATE TABLE IF NOT EXISTS users (
 
 -- Sample User (Password: user123)
 INSERT INTO users (register_no, full_name, username, password, address, phone, email) VALUES
-('REG001', 'John Doe', 'john', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', '123 Society St', '1234567890', 'john@example.com')
+('REG001', 'John Doe', 'john', '$2y$10$ceSnz8DAL6RAGZXIAKw5f.e/6CO8i8/OVXQQXlNIxcR9D2t5NHwsW', '123 Society St', '1234567890', 'john@example.com')
 ON DUPLICATE KEY UPDATE full_name=VALUES(full_name);
 
 -- 3. Messages Table
